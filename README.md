@@ -14,7 +14,7 @@ This is a Python implementation of the classic 2048 sliding puzzle game. The gam
 - **High Score System:** Saves and displays the top 3 scores across sessions.
 - **Customizable Interface:** Dynamic tile colors and grid design.
 
-[Interface](images/Interface.png)
+![Interface](images/Interface.png)
 
 ---
 
@@ -44,7 +44,7 @@ def save_high_scores(high_scores, filename="high_scores.json"):
         print("Error: Failed to save the high scores.")
 ```
 
-[High score](images/high_score.png)
+![High score](images/high_score.png)
 
 ---
 
