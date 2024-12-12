@@ -14,7 +14,7 @@ This is a Python implementation of the classic 2048 sliding puzzle game. The gam
 - **High Score System:** Saves and displays the top 3 scores across sessions.
 - **Customizable Interface:** Dynamic tile colors and grid design.
 
-_Image Placeholder: Insert a screenshot of the game interface showing the grid and score display._
+[Interface](images/Interface.png)
 
 ---
 
@@ -44,7 +44,7 @@ def save_high_scores(high_scores, filename="high_scores.json"):
         print("Error: Failed to save the high scores.")
 ```
 
-_Image Placeholder: Insert an image showing an example of the high scores JSON file._
+[High score](images/high_score.png)
 
 ---
 
@@ -71,7 +71,7 @@ def move_left(mas):
     return mas, delta
 ```
 
-_Image Placeholder: Insert a screenshot or animation showing tiles moving and merging._
+
 
 #### Random Tile Placement
 After each move, a new tile (2 or 4) is added to the grid at a random empty position.
@@ -85,7 +85,7 @@ def insert_2_or_4(mas, x, y):
     return mas
 ```
 
-_Image Placeholder: Insert an image showing an empty grid before and after a random tile is added._
+
 
 ---
 
@@ -106,7 +106,7 @@ def draw_interface(score, delta=0, high_scores=[]):
     screen.blit(text_score_value, (175, 35))
 ```
 
-_Image Placeholder: Insert a labeled screenshot of the game interface highlighting the grid, scores, and high scores._
+
 
 ---
 
@@ -116,7 +116,7 @@ _Image Placeholder: Insert a labeled screenshot of the game interface highlighti
 2. Install dependencies using `pip install pygame`.
 3. Run the game using `python main.py`.
 
-_Image Placeholder: Insert a screenshot of the terminal running the game._
+
 
 ---
 
@@ -132,4 +132,4 @@ _Image Placeholder: Insert a screenshot of the terminal running the game._
 
 Special thanks to the `pygame` community and online resources for their support.
 
-_Image Placeholder: Insert a creative closing image, such as a banner with "Thank You!"._
+
